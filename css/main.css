@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  //background-color: #ae7c58;
+  font-family: arial, sans-serif;
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 900px;
+  height: 80px;
+    background-color: #fff3e8;
+}
+
+#header-line {
+  height: 5px;
+  background-color: #442200;
+}
+
+#header-logo {
+  float: left;
+  width: 300px;
+}
+
+#header-desc {
+  float: right;
+}
+
+#topimage {
+  width: 900px;
+  height: 200px;
+  background-image: url(../images/header.png);
+}
+
+#gnav {
+  background-color: #ffffff;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #442200;
+}
+
+#gnav ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 80px;
+}
+
+#gnav li {
+  display: inline-block;
+  width: 110px;
+  height: 80px;
+  //border-left: 1px solid #442200;
+}
+
+#gnav img {
+  float: left;
+  margin: 24px 0;
+}
+
+#gnav p {
+  float: left;
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+#gnav li:hover {
+  background: rgba(253,205,88,0.5);
+  color:#e0447f;
+}
+
+#main {
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff3e8;
+}
+
+#sidebar {
+  float: left;
+  width: 168px;
+  background-color: #e1af7d;
+  padding: 0px 15px 0px 15px;
+  border-left: dashed 2px;
+}
+
+#sidebar h2 {
+  color: #ffffff;
+  background: #442200;
+  border: solid 3px #442200;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 18px;
+}
+
+#sidebar p {
+  font-size: 14px;
+}
+
+#content {
+  float: left;
+  width: 700px;
+  background-color: #fff3e8;
+}
+
+#content h2 {
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #fda731;
+}
+#content h2::before {
+  position: absolute;
+  left: -6px;
+  bottom: 0;
+  content: '';
+  width: 6px;
+  height: 50%;
+  background-color: #442200;
+}
+#content h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #442200;
+}
+
+#info {
+  //background-color: #ffffff;
+}
+
+#infolist {
+  list-style: none;
+  //width: 500px;
+}
+
+#infolist li {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background: #f4f4f4;
+  border-left: solid 6px #5bb7ae;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+  width: 550px;
+}
+
+.info-image {
+  width: 120px;
+  float: left;
+}
+
+.info-data {
+  
+}
+
+.info-title {
+  float: left;
+  font-size: 20px;
+}
+
+.info-day {
+  float: right;
+}
+
+.info-head {
+  float: left;
+  width: 380px;
+  height: 50px;
+  border-bottom: dashed;
+}
+
+.info-text {
+  float: left;
+  width: 380px;
+}
+
+#footer {
+  float: left;
+  color: #ffffff;
+  background-color: #442200;
+  width: 900px;
+  text-align:center;
+  padding: 20px 0px 5px 0px;
+}
